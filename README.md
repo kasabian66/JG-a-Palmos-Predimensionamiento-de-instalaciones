@@ -1,0 +1,1 @@
+# JG-a-Palmos-Predimensionamiento-de-instalaciones
