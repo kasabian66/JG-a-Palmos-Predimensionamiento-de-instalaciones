@@ -1,0 +1,3 @@
+ID,Nombre zona,Uso,Superficie (m²),Zona climática,Nivel carga (B/M/A),"Exposición (E/S/W, N, Interior)",Densidad (pers/m²),Personas,Camas,Cubiertos/día,Suministro complementario,Frío override (W/m²),Calor override (W/m²),Ventilación override (L/s·m²),Eléctrica override (W/m²),Eléctrica comp. override (W/m²),Categoría global (Tabla 1)
+1,Above-ground (Office),Oficinas,4500,D1,M,Interior,0.08,,,,False,,,,,,
+2,Below-ground (Office / Basement),Oficinas,1000,D1,B,Interior,0.02,,,,False,,,,,,
