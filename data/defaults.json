@@ -1,0 +1,74 @@
+{
+  "uses": {
+    "Oficinas": {
+      "hvac_cooling_wm2": 90,
+      "hvac_heating_wm2": 60,
+      "vent_lps_m2": 1.25,
+      "elec_wm2": 70,
+      "elec_diversity": 0.7,
+      "elec_pf": 0.95,
+      "pci_bie_lps_per_1000m2": 3.33,
+      "pci_spr_lps_per_1000m2": 25.0
+    },
+    "Hotel": {
+      "hvac_cooling_wm2": 110,
+      "hvac_heating_wm2": 70,
+      "vent_lps_m2": 1.0,
+      "elec_wm2": 90,
+      "elec_diversity": 0.7,
+      "elec_pf": 0.95,
+      "pci_bie_lps_per_1000m2": 3.33,
+      "pci_spr_lps_per_1000m2": 25.0
+    },
+    "Hospital": {
+      "hvac_cooling_wm2": 160,
+      "hvac_heating_wm2": 120,
+      "vent_lps_m2": 2.5,
+      "elec_wm2": 180,
+      "elec_diversity": 0.8,
+      "elec_pf": 0.95,
+      "pci_bie_lps_per_1000m2": 3.33,
+      "pci_spr_lps_per_1000m2": 50.0
+    },
+    "Residencial": {
+      "hvac_cooling_wm2": 60,
+      "hvac_heating_wm2": 50,
+      "vent_lps_m2": 0.6,
+      "elec_wm2": 35,
+      "elec_diversity": 0.6,
+      "elec_pf": 0.95,
+      "pci_bie_lps_per_1000m2": 0.0,
+      "pci_spr_lps_per_1000m2": 0.0
+    },
+    "Retail": {
+      "hvac_cooling_wm2": 140,
+      "hvac_heating_wm2": 80,
+      "vent_lps_m2": 2.0,
+      "elec_wm2": 120,
+      "elec_diversity": 0.8,
+      "elec_pf": 0.95,
+      "pci_bie_lps_per_1000m2": 3.33,
+      "pci_spr_lps_per_1000m2": 50.0
+    },
+    "Industrial ligero": {
+      "hvac_cooling_wm2": 40,
+      "hvac_heating_wm2": 40,
+      "vent_lps_m2": 0.8,
+      "elec_wm2": 60,
+      "elec_diversity": 0.75,
+      "elec_pf": 0.95,
+      "pci_bie_lps_per_1000m2": 3.33,
+      "pci_spr_lps_per_1000m2": 80.0
+    }
+  },
+  "parking": {
+    "mode": "Salubridad (CTE DB-HS 3)",
+    "supply_lps_per_space": 120.0,
+    "extract_lps_per_space_hs3": 120.0,
+    "extract_lps_per_space_si3": 150.0
+  },
+  "pci": {
+    "bie_hours": 1.0,
+    "spr_hours": 1.5
+  }
+}
